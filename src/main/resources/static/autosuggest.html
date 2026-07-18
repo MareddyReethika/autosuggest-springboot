@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1{
+        body {
             text-align: center;
-            color:black;
+            color: black;
         }
-        p{
-            text-align: center;
-            color:black;
+        .gear{
+            position:fixed;
+            top: 20px;
+            right: 20px;
         }
-        input{
-            text-align: center;
-            color: darkgrey;
+        .bullet{
+            position:fixed;
+            top: 20px;
+            left: 20px;
+        }
+        .logo{
+            margin-top: 150px;
         }
     </style>
 </head>
 <body>
-    <span> &#x2699; </span>
-    <span> &#x2022; online | &#x1F552; -ms </span>
-    <h1>BeingInfinity</h1>
+    <span class="gear"> &#x2699; </span>
+    <span class="bullet"> &#x2022; online | &#x1F552; -ms </span>
+    <h1 class="logo">BeingInfinity</h1>
     <p>One million phrases. Four algorithms. Prefix based autosuggest. </p>
     <span> &#128269;</span>
     <input type="text" placeholder="Start typing to search phrases...">
