@@ -6,12 +6,12 @@ var users = [
     {
         "name" : "John Doe",
         "gender" : "Male",
-        "img" : "image2.png"
+        "img" : "john.png"
     },
     {
         "name" : "Jane Doe",
         "gender" : "Female",
-        "img" : "image1.png"
+        "img" : "jane.png"
     }
 ]
 
